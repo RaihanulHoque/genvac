@@ -130,22 +130,19 @@ section {
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
-  visibility: hidden;
-  opacity: 0;
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
-  width: 40px;
-  height: 40px;
+  background: #88D0FF;
+  width: 50px;
+  height: 50px;
   border-radius: 4px;
   transition: all 0.4s;
 }
 
-.back-to-top i {
-  font-size: 24px;
-  color: #fff;
-  line-height: 0;
+.back-to-top img {
+ width:25px;
+ height:25px;
 }
 
 .back-to-top:hover {
@@ -153,10 +150,24 @@ section {
   color: #fff;
 }
 
-.back-to-top.active {
-  visibility: visible;
-  opacity: 1;
+.back-to-page {
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+  background: #88D0FF;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+  transition: all 0.4s;
+	 
 }
+.back-to-page img {
+	width:27px;
+	height:27px;
+} 
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
