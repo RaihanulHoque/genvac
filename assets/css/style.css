@@ -2421,6 +2421,86 @@ section {
 
 .slider1-mtext{
 	position: absolute;
+	width:100%;
     top: 30%;
-    left: 30%;
+    text-align: center;
+}
+.site-title{
+	font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+	padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	.site-title{
+		font-size: 15px;
+		padding-top:5px;
+		width:100%;
+		text-align:left;
+	}
+	.hero h1, .slider1-mtext{
+		font-size:25px;
+		top: 15%;
+	}
+	.carousel-caption{
+		top:76%;
+		padding-top:1rem;
+		padding-bottom:1rem;
+	}
+	
+}
+@media (min-width: 768px) {
+	.hero h1, .slider1-mtext{
+		font-size:30px;
+		top: 10%;
+		padding:10px;
+	}
+	
+}
+@media (min-width: 992px) {
+	.hero h1, .slider1-mtext{
+		font-size:35px;
+		top: 20%;
+		padding:10px;
+	}
+	.carousel-caption{
+		top:76%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.site-title{
+		font-size: 14px;
+		padding-top:5px;
+	}
+}
+	
+@media (min-width: 1199px) {
+	.site-title{
+		font-size: 15px;
+		padding-top:5px;
+	}
+	.hero h1, .slider1-mtext{
+		font-size:40px;
+	}
+}
+@media (min-width: 1200px) {
+	.site-title{
+		font-size: 17px;
+		padding-top:5px;
+	}
+	.hero h1, .slider1-mtext{
+		font-size:50px;
+	}
+}
+
+@media (min-width: 1400px) {
+	.site-title{
+		font-size: 22px;
+		padding-top:5px;
+	}
+	.hero h1, .slider1-mtext{
+		font-size:55px;
+	}
 }
