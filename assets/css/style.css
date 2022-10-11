@@ -2448,7 +2448,9 @@ section {
 		padding-top:1rem;
 		padding-bottom:1rem;
 	}
-	
+	.mb-5{
+		margin-bottom:0 !important;
+	}
 }
 @media (min-width: 768px) {
 	.hero h1, .slider1-mtext{
